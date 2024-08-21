@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61368E72C765474006B1780 /* MacNotchIslandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61368E62C765474006B1780 /* MacNotchIslandApp.swift */; };
+		C61368E92C765474006B1780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61368E82C765474006B1780 /* ContentView.swift */; };
+		C61368EB2C765475006B1780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61368EA2C765475006B1780 /* Assets.xcassets */; };
+		C61368EE2C765475006B1780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61368ED2C765475006B1780 /* Preview Assets.xcassets */; };
+		C61368F92C765475006B1780 /* MacNotchIslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61368F82C765475006B1780 /* MacNotchIslandTests.swift */; };
+		C61369032C765475006B1780 /* MacNotchIslandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61369022C765475006B1780 /* MacNotchIslandUITests.swift */; };
+		C61369052C765475006B1780 /* MacNotchIslandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61369042C765475006B1780 /* MacNotchIslandUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61368F52C765475006B1780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61368DB2C765474006B1780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61368E22C765474006B1780;
+			remoteInfo = MacNotchIsland;
+		};
+		C61368FF2C765475006B1780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61368DB2C765474006B1780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61368E22C765474006B1780;
+			remoteInfo = MacNotchIsland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61368E32C765474006B1780 /* MacNotchIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacNotchIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61368E62C765474006B1780 /* MacNotchIslandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotchIslandApp.swift; sourceTree = "<group>"; };
+		C61368E82C765474006B1780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C61368EA2C765475006B1780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61368ED2C765475006B1780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C61368EF2C765475006B1780 /* MacNotchIsland.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacNotchIsland.entitlements; sourceTree = "<group>"; };
+		C61368F42C765475006B1780 /* MacNotchIslandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacNotchIslandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61368F82C765475006B1780 /* MacNotchIslandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotchIslandTests.swift; sourceTree = "<group>"; };
+		C61368FE2C765475006B1780 /* MacNotchIslandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacNotchIslandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61369022C765475006B1780 /* MacNotchIslandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotchIslandUITests.swift; sourceTree = "<group>"; };
+		C61369042C765475006B1780 /* MacNotchIslandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotchIslandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61368E02C765474006B1780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61368F12C765475006B1780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61368FB2C765475006B1780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61368DA2C765473006B1780 = {
+			isa = PBXGroup;
+			children = (
+				C61368E52C765474006B1780 /* MacNotchIsland */,
+				C61368F72C765475006B1780 /* MacNotchIslandTests */,
+				C61369012C765475006B1780 /* MacNotchIslandUITests */,
+				C61368E42C765474006B1780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61368E42C765474006B1780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61368E32C765474006B1780 /* MacNotchIsland.app */,
+				C61368F42C765475006B1780 /* MacNotchIslandTests.xctest */,
+				C61368FE2C765475006B1780 /* MacNotchIslandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61368E52C765474006B1780 /* MacNotchIsland */ = {
+			isa = PBXGroup;
+			children = (
+				C61368E62C765474006B1780 /* MacNotchIslandApp.swift */,
+				C61368E82C765474006B1780 /* ContentView.swift */,
+				C61368EA2C765475006B1780 /* Assets.xcassets */,
+				C61368EF2C765475006B1780 /* MacNotchIsland.entitlements */,
+				C61368EC2C765475006B1780 /* Preview Content */,
+			);
+			path = MacNotchIsland;
+			sourceTree = "<group>";
+		};
+		C61368EC2C765475006B1780 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C61368ED2C765475006B1780 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C61368F72C765475006B1780 /* MacNotchIslandTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61368F82C765475006B1780 /* MacNotchIslandTests.swift */,
+			);
+			path = MacNotchIslandTests;
+			sourceTree = "<group>";
+		};
+		C61369012C765475006B1780 /* MacNotchIslandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61369022C765475006B1780 /* MacNotchIslandUITests.swift */,
+				C61369042C765475006B1780 /* MacNotchIslandUITestsLaunchTests.swift */,
+			);
+			path = MacNotchIslandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61368E22C765474006B1780 /* MacNotchIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61369082C765475006B1780 /* Build configuration list for PBXNativeTarget "MacNotchIsland" */;
+			buildPhases = (
+				C61368DF2C765474006B1780 /* Sources */,
+				C61368E02C765474006B1780 /* Frameworks */,
+				C61368E12C765474006B1780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacNotchIsland;
+			productName = MacNotchIsland;
+			productReference = C61368E32C765474006B1780 /* MacNotchIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61368F32C765475006B1780 /* MacNotchIslandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C613690B2C765475006B1780 /* Build configuration list for PBXNativeTarget "MacNotchIslandTests" */;
+			buildPhases = (
+				C61368F02C765475006B1780 /* Sources */,
+				C61368F12C765475006B1780 /* Frameworks */,
+				C61368F22C765475006B1780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61368F62C765475006B1780 /* PBXTargetDependency */,
+			);
+			name = MacNotchIslandTests;
+			productName = MacNotchIslandTests;
+			productReference = C61368F42C765475006B1780 /* MacNotchIslandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61368FD2C765475006B1780 /* MacNotchIslandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C613690E2C765475006B1780 /* Build configuration list for PBXNativeTarget "MacNotchIslandUITests" */;
+			buildPhases = (
+				C61368FA2C765475006B1780 /* Sources */,
+				C61368FB2C765475006B1780 /* Frameworks */,
+				C61368FC2C765475006B1780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61369002C765475006B1780 /* PBXTargetDependency */,
+			);
+			name = MacNotchIslandUITests;
+			productName = MacNotchIslandUITests;
+			productReference = C61368FE2C765475006B1780 /* MacNotchIslandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61368DB2C765474006B1780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C61368E22C765474006B1780 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C61368F32C765475006B1780 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C61368E22C765474006B1780;
+					};
+					C61368FD2C765475006B1780 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C61368E22C765474006B1780;
+					};
+				};
+			};
+			buildConfigurationList = C61368DE2C765474006B1780 /* Build configuration list for PBXProject "MacNotchIsland" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61368DA2C765473006B1780;
+			productRefGroup = C61368E42C765474006B1780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61368E22C765474006B1780 /* MacNotchIsland */,
+				C61368F32C765475006B1780 /* MacNotchIslandTests */,
+				C61368FD2C765475006B1780 /* MacNotchIslandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61368E12C765474006B1780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61368EE2C765475006B1780 /* Preview Assets.xcassets in Resources */,
+				C61368EB2C765475006B1780 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61368F22C765475006B1780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61368FC2C765475006B1780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61368DF2C765474006B1780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61368E92C765474006B1780 /* ContentView.swift in Sources */,
+				C61368E72C765474006B1780 /* MacNotchIslandApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61368F02C765475006B1780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61368F92C765475006B1780 /* MacNotchIslandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61368FA2C765475006B1780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61369052C765475006B1780 /* MacNotchIslandUITestsLaunchTests.swift in Sources */,
+				C61369032C765475006B1780 /* MacNotchIslandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61368F62C765475006B1780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61368E22C765474006B1780 /* MacNotchIsland */;
+			targetProxy = C61368F52C765475006B1780 /* PBXContainerItemProxy */;
+		};
+		C61369002C765475006B1780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61368E22C765474006B1780 /* MacNotchIsland */;
+			targetProxy = C61368FF2C765475006B1780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C61369062C765475006B1780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61369072C765475006B1780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C61369092C765475006B1780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacNotchIsland/MacNotchIsland.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacNotchIsland/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.aadhicreation.MacNotchIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C613690A2C765475006B1780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacNotchIsland/MacNotchIsland.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacNotchIsland/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.aadhicreation.MacNotchIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C613690C2C765475006B1780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.aadhicreation.MacNotchIslandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacNotchIsland.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacNotchIsland";
+			};
+			name = Debug;
+		};
+		C613690D2C765475006B1780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.aadhicreation.MacNotchIslandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacNotchIsland.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacNotchIsland";
+			};
+			name = Release;
+		};
+		C613690F2C765475006B1780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.aadhicreation.MacNotchIslandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacNotchIsland;
+			};
+			name = Debug;
+		};
+		C61369102C765475006B1780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.aadhicreation.MacNotchIslandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacNotchIsland;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61368DE2C765474006B1780 /* Build configuration list for PBXProject "MacNotchIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61369062C765475006B1780 /* Debug */,
+				C61369072C765475006B1780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61369082C765475006B1780 /* Build configuration list for PBXNativeTarget "MacNotchIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61369092C765475006B1780 /* Debug */,
+				C613690A2C765475006B1780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C613690B2C765475006B1780 /* Build configuration list for PBXNativeTarget "MacNotchIslandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C613690C2C765475006B1780 /* Debug */,
+				C613690D2C765475006B1780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C613690E2C765475006B1780 /* Build configuration list for PBXNativeTarget "MacNotchIslandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C613690F2C765475006B1780 /* Debug */,
+				C61369102C765475006B1780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61368DB2C765474006B1780 /* Project object */;
+}
